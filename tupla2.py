@@ -19,8 +19,12 @@
 
 #la funcion count, cuenta las veces que aparece un elelmto dentro
 #una tupla de python
-animales=("peroo","gato","raton","serpiente","caballo","peroo")
-print(animales.count("peroo"))
+#animales=("peroo","gato","raton","serpiente","caballo","peroo")
+#print(animales.count("peroo"))
 
 
 #la funcion index, indica la pocicion en la que aparece un elemeto
+#dentro de una tupla de python 
+animales=("peroo","gato","raton","serpiente","caballo")
+print(animales.index("serpiente"))
+print(type(animales))#type imprime el tipo tupla
